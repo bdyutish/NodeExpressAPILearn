@@ -3,7 +3,6 @@ const Bootcamp = require('../models/Bootcamp');
 const ErrorResponse = require('../utils/errorResponse');
 const asyncHandler = require('../middleware/async');
 const path = require('path');
-const { findOneAndDelete } = require('../models/Bootcamp');
 // @desc Get all bootcamps
 // @route GET /api/v1/bootcamps
 // @acces PUBLIC
